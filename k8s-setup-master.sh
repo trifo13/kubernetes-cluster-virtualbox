@@ -14,9 +14,9 @@ sed -i -e 's/#DNS=/DNS=8.8.8.8/' /etc/systemd/resolved.conf
 
 # Update /etc/hosts about other hosts
 cat >> /etc/hosts <<EOF
-192.168.9.13 master
-192.168.9.14 worker-1
-192.168.9.15 worker-2
+192.168.10.13 master
+192.168.10.14 worker-1
+192.168.10.15 worker-2
 EOF
 
 apt-get update 
